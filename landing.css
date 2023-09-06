@@ -1,0 +1,90 @@
+body {
+    background-color: #d0f0d0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo-container {
+    background-color: hsl(128, 100%, 51%);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  #logo-container h1 {
+    color: #675;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #6666;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #333333;
+  }
+  
+  #inicio {
+    background-color: #ff00ea;
+    color: rgb(248, 6, 6);
+  }
+  
+  #cursos {
+    background-color: #f3a808;
+  }
+  
+  #contacto {
+    background-color: #e1fa06;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Tu código CSS actual aquí */
+
+/* Añadir estilos para resaltar los cursos */
+#cursos ul li {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #cursos ul li:hover {
+    background-color: #f2f2f275;
+  }
+  
