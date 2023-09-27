@@ -13,13 +13,13 @@ body {
   }
   
   #logo-container {
-    background-color: hsl(128, 100%, 51%);
+    background-color: hsl(120, 4%, 9%);
     padding: 10px 20px;
     border-radius: 10px;
   }
   
   #logo-container h1 {
-    color: #675;
+    color: rgb(13, 14, 13);
     margin: 0;
   }
   
@@ -33,10 +33,10 @@ body {
   nav li {
     margin-right: 20px;
   }
-  
+  S
   nav a {
     text-decoration: none;
-    color: #6666;
+    color: #16151566;
   }
   
   section {
@@ -45,20 +45,22 @@ body {
   }
   
   h1, h2 {
-    color: #333333;
+    color: hsla(0, 4%, 10%, 0.459)
+    ;
   }
   
   #inicio {
-    background-color: #ff00ea;
+    background-color: #abd0e6;
     color: rgb(248, 6, 6);
   }
   
   #cursos {
-    background-color: #f3a808;
+    background-color: hsl(0, 25%, 94%);
   }
   
   #contacto {
-    background-color: #e1fa06;
+    background-color: hs
+    l(69, 8%, 67%);
   }
   
   ul {
@@ -71,8 +73,8 @@ body {
   }
   
   footer {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #131212;
+    color: #aca0a0;
     text-align: center;
     padding: 10px;
   }
@@ -85,6 +87,8 @@ body {
   }
   
   #cursos ul li:hover {
-    background-color: #f2f2f275;
+    background-color: #0a0a0a75;
   }
-  
+  .lefttexto{
+    text-align:justify;
+  }
