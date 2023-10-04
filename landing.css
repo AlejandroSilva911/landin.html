@@ -30,6 +30,7 @@ body {
     display: flex;
   }
   
+  
   nav li {
     margin-right: 20px;
   }
@@ -64,8 +65,8 @@ body {
   }
   
   ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; 
+    padding-left: 0;
   }
   
   ul li {
@@ -73,22 +74,31 @@ body {
   }
   
   footer {
-    background-color: #131212;
-    color: #aca0a0;
+    background-color: #101110;
+    color: #d0f0d0;
     text-align: center;
     padding: 10px;
   }
   /* Tu código CSS actual aquí */
 
 /* Añadir estilos para resaltar los cursos */
-#cursos ul li {
+#carreras ul li {
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
-  #cursos ul li:hover {
+  #carreras ul li:hover {
     background-color: #0a0a0a75;
   }
   .lefttexto{
     text-align:justify;
+  }
+  .pdf{
+    width: 250px; height: auto;
+  }
+  .pdf {
+    margin: auto;
+    display: block;
+    width: 850px;
+    height : 400px;
   }
